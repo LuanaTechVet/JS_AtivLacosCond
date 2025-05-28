@@ -35,7 +35,6 @@ switch (codigo) {
     console.log("código invalido");
   return
 }
-
 quant=leia.questionInt("Digite a quantidade desejada: ", {
     limitMessage: 'Digite um numero inteiro'});
 console.log("Valor total", new Intl.NumberFormat('pt-BR', 
